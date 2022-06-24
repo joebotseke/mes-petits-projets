@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    text-align: center;
+    background-color:#26EC6E;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.my-form {
+    padding: 30px;
+    margin-left: 33%;
+    font-size: 30px;
+  }
+  p{
+    margin-left: 25%;
+    font-size: 20px;
+
+  }
+  #calculate-button{
+    background-color: #26EC6E;
+    padding: 5px;
+    color: #fff;
+  }
+  label{
+    color: orange;
+  }
+  #day-input{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1024px){
+    .my-form, p{
+        margin-left: auto;
+    }
+}
